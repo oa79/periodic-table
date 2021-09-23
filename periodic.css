@@ -1,0 +1,133 @@
+* {
+	margin: 0px auto;
+}
+
+.peach-axis {
+	color: #FE6A7E;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.square {
+	width: 64px;
+	padding: 3px 0px 3px 0px;
+	text-align: center;
+	margin-bottom: 2px;
+	border: 1px solid #9B9B9B;
+}
+	.square p {
+		color: #515200;
+	}
+	.square h4 {
+		color: #2012B1;
+	}
+
+/* -- -- -- -- -- -- -- -- -- -- */
+
+#container {
+	display: flex;
+	background-color: #EEEEEE;
+	width: 1300px;
+	padding: 5px 20px 10px 5px;
+}
+
+	.col-0 {
+		flex: 1;
+	}
+		.col-name {
+			width: 45px;
+			color: #FE6A7E;
+			padding-left: 10px;
+			padding-bottom: 10px;
+		}
+		.col-0 ul {
+			display: inline-block;
+			padding: 20px 0px 3px 25px;
+			color: #FE6A7E;
+		}
+			.col-0 ul li {
+				width: 30px;
+				padding-bottom: 46px;
+			}
+			.cat {
+				width: 40px;
+				list-style-type: none;
+				color: #FE6A7E;
+				text-align: center;
+				margin-top: 50px;
+				/*padding: 0px 0px 0px 0px;*/
+			}
+
+/* -- -- -- -- -- -- -- -- -- -- */
+
+	#elements {
+		display: flex;
+	}
+
+/* -- -- -- BLUE Columns -- -- -- */
+	.col {
+		flex: 1;
+	}
+		.col ul {
+			padding: 0px 0px 0px 2px;
+			/*vertical-align: top;*/
+		}
+		.blue {
+			background-color: #679CFF;
+		}
+
+	.col-2 {
+		margin-top: 89px;
+	}
+
+/* -- -- -- PEACH Columns -- -- -- */
+	.col-3 {
+		padding-left: 23px;
+	}
+		.square.col-peach {
+			margin-top: 218px;
+			background-color: #FD9A98;
+		}
+		.peach {
+			background-color: #FD9A98;
+		}
+
+/* -- -- -- GOLD Columns -- -- -- */
+	.col-13 {
+		/*padding-left: 23px;*/
+	}
+		.square.col-gold {
+			margin-top: 90px;
+			background-color: #FECB00;
+		}
+		.square.col-gold-18 {
+			margin-top: 26px;
+			background-color: #FECB00;
+		}
+		.gold {
+			background-color: #FECB00;
+		}
+
+/* -- -- -- EMERALD Columns -- -- -- */
+
+		.square.col-emerald {
+			margin-top: 30px;
+			background-color: #1ECA1F;
+		}
+		.emerald {
+			background-color: #1ECA1F;
+		}
+
+
+.footer {
+	background-color: #EEEEEE;
+	margin-top: 5px;
+	padding: 10px 20px 10px 5px;
+	color: #FE6A7E;
+	width: 1300px;
+	text-align: center;
+}
